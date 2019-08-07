@@ -1,6 +1,6 @@
 import ConfigParser
 Config = ConfigParser.ConfigParser()
-Config.read("config.ini")
+Config.read("modelSelection.ini")
 Name=Config.get('General','Name')
 
 print(Name)
